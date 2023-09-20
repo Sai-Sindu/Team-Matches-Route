@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.team-matches-container {
+  background-image: linear-gradient(to top, #1e293b, #5755a7, #a4261d, #d91c1f);
+  background-color: #1e293b;
+  background-size: cover;
+  padding: 40px;
+  font-family: 'Bree Serif';
+}
+.team-matches-img {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.latest-match {
+  color: #ffffff;
+  font-size: 15px;
+}
+.recent-matches-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
